@@ -1,7 +1,7 @@
-node('master') 
+node('master')
 {
     stage('ContinuousDownload') 
-    {
-    git 'https://github.com/rgopisetti12/mav.git'
-    }
+	{
+    		git 'https://github.com/rgopisetti12/mav.git'
+	}
 }
