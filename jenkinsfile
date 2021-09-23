@@ -14,7 +14,7 @@ node('master')
     }
     stage('ContinuousTesting') 
     {
-        git 'https://github.com/rgopisetti12/Testcases.git'
+        git 'https://github.com/rgopisetti12/Testcases/tree/main/FunctionalTesting'
         sh 'java -jar /home/ubuntu/.jenkins/workspace/ScriptedPipeline/testing.jar'
     }
     stage('ContinuousDelivery') 
