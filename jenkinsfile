@@ -15,7 +15,7 @@ node('master')
     stage('ContinuousTesting_Loans') 
     {
         git 'https://github.com/rgopisetti12/FunctionalTesting'
-        sh 'java -jar /home/ubuntu/.jenkins/workspace/MultibranchPipeline_master/testing.jar'
+        sh 'java -jar /home/ubuntu/.jenkins/workspace/Testing/testing.jar'
     }
     stage('ContinuousDelivery_Loans') 
     {
