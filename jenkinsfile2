@@ -1,7 +1,0 @@
-node('master') 
-{
- stage('ContionusDownload') 
- {
-    git 'https://github.com/rgopisetti12/mav.git'
- }   
-}
